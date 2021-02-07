@@ -17,6 +17,7 @@ void quick_sort(int *array, size_t size)
 *@A: array to part
 *@lo: hiest value
 *@hi: loest value
+*@size: size of the array
 *Return: position
 */
 int partition_lomuto(int *A, int lo, int hi, size_t size)
@@ -58,6 +59,7 @@ void swap(int *a, int *b)
 *@A: array
 *@lo: hiest
 *@hi: loest
+*@size: size of the array
 *Return: noth
 */
 void quicksort(int *A, int lo, int hi, size_t size)
